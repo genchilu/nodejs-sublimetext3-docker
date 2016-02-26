@@ -7,4 +7,4 @@ RUN apt-get update -y && \
     apt-get install nodejs -y
 
 RUN npm install express-generator -g
-
+ADD Preferences.sublime-settings /root/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
